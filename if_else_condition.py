@@ -7,7 +7,7 @@ else:
     print("Test Failed")
 
 pass_marks = 40
-student_marks = int(input("Enter your Marks: "))
+student_marks = float(input("Enter your Marks: "))
 
 if student_marks >= pass_marks:
     print("Passed")
